@@ -1,0 +1,143 @@
+.post {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.postInfo {
+    display: flex;
+    align-items: center;
+}
+.postInfo h5 {
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 13px;
+}
+.postInfo h5:hover {
+    text-decoration: underline;
+}
+.postInfo small {
+    margin-left: 10px;
+}
+.postBody {
+    display: flex;
+    flex-direction: column;
+}
+.postBody .postQuestion {
+    font-weight: bold;
+    margin-bottom: 10px;
+    cursor: pointer;
+    display: flex;
+}
+.postBody .postQuestion p:hover {
+    text-decoration: underline;
+}
+.postQuestion .postBtnAns{
+    margin-left: auto;
+    outline: none;
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 30px;
+    width: 90px;
+}
+.postBody img {
+    object-fit: contain;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.postFooter {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.postFooter .MuiSvgIcon-root {
+    color: gray;
+    margin-right: 40px;
+    cursor: pointer;
+}
+.postFooterAction {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 33px;
+    padding: 5px;
+    align-items: center;
+    background-color: lightgray;
+}
+.postFooterAction .MuiSvgIcon-root {
+    color: gray;
+    margin-right: 40px;
+    cursor: pointer;
+}
+.postFooterAction .MuiSvgIcon-root:hover {
+    color: #8f1f1b;
+    margin-right: 40px;
+    cursor: pointer;
+}
+.postFooterLeft {
+    margin-left: auto;
+}
+.modal_question {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.modal_question h1 {
+    color: #8f1f1b;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.modal_question p {
+    color: gray;
+    font-size: small;
+}
+.modal_question p .name {
+    color: black;
+    font-weight: bold;
+}
+.modal_answer {
+    display: flex;
+    padding-top: 20px;
+    flex: 1;
+}
+.modal_answer textarea {
+    width: 100%;
+    height: 200px;
+    padding: 5px;
+    font-size: 15px;
+}
+.modal_buttons {
+    display: flex;
+    align-items: center;
+    margin-right: -20px;
+    border-top: 1px solid lightgray;
+}
+.modal_buttons .cancel1 {
+    margin-left: auto;
+    border: none;
+    margin-top: 5px;
+    outline: none;
+    color: gray;
+    font-weight: 500;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 33px;
+    cursor: pointer;
+}
+.modal_buttons .add1 {
+    border: none;
+    outline: none;
+    margin-top: 5px;
+    background-color: rgb(0, 64, 255);
+    color: white;
+    font-weight: 700;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 33px;
+    cursor: pointer;
+}

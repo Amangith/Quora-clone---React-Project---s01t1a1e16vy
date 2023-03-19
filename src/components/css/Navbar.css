@@ -1,0 +1,163 @@
+.qHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.5);
+
+}
+.qHeader_logo > img {
+    height: 30px;
+    margin-right: 20px;
+}
+.qHeaderIcons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    color: grey;
+    font-size: xx-large;
+
+}
+.qHeaderIcon {
+    padding: 5px 20px;
+}
+.qHeaderIcon:hover {
+    color: #8f1f1b;
+    background-color: rgb(240, 240, 240);
+    cursor: pointer;
+}
+.qHeaderInput {
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 5px;
+}
+.qHeaderInput > input {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: rgba(49, 49, 49);
+}
+.qHeaderInput > .MuiSvgIcon-root {
+    color: gray;
+}
+.qHeaderRem {
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+}
+.qHeaderRem > button {
+    border-radius: 20px;
+    border: 1px solid gray;
+    background-color: transparent;
+    padding: 7px;
+    cursor: pointer;
+}
+.qHeaderRem .MuiSvgIcon-root {
+    font-size: xx-large;
+    color: gray;
+    cursor: pointer;
+    padding: 10px;
+}
+.qHeaderRem .MuiSvgIcon-root:hover {
+    color: #8f1f1b;
+    background-color: rgb(240, 240, 240);
+}
+.qHeader .avatar {
+    margin-left: 20px;
+}
+.qHeaderRem > .MuiButton-root {
+    color: white;
+    background-color: #8f1f1b;
+    text-transform: inherit;
+}
+.qHeader .MuiButton-root:hover {
+    background-color: #8f1f1b;
+}
+.modal_title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    border-bottom: 1px solid rgba(187, 187, 187, 0.5);
+}
+.modal_title h5 {
+    color: gray;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 500;
+    margin-right: 30px;
+}
+.modal_title h5:hover {
+    color: #b92b27;
+}
+.modal_info {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.modal_info p {
+    margin-left: 10px;
+    font-size: small;
+    color: gray;
+}
+.modal_info .modal_scope {
+    display: flex;
+    align-items: center;
+    color: rgb(98, 98, 98);
+    padding: 5px;
+    margin-left: 10px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 33px;
+    cursor: pointer;
+}
+.modal_Field {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    flex: 1;
+}
+.modal_Field .modal_fieldLink {
+    color: gray;
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+}
+.modal_fieldLink input {
+    flex: 1;
+    border: none;
+    outline: none;
+    margin-left: 5px;
+    margin-top: 25px;
+    width: 80%;
+}
+.modal_buttons .cancel {
+    margin-left: auto;
+    border: none;
+    margin-top: 165px;
+    outline: none;
+    color: gray;
+    font-weight: 500;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 33px;
+    cursor: pointer;
+}
+.modal_buttons .add {
+    border: none;
+    outline: none;
+    margin-top: 165px;
+    background-color: rgb(0, 64, 255);
+    color: white;
+    font-weight: 700;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 33px;
+    cursor: pointer;
+}

@@ -1,0 +1,5 @@
+.quoraContent {
+    display: flex;
+    background-color: rgb(247, 247, 247);
+    justify-content: center;
+}
