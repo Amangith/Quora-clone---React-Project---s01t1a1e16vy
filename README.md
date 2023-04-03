@@ -7,4 +7,5 @@ Project objective :-
 - The reason for the creation of this website is to make a platform where people with different questions can post their queries and their queries can be answered.
 
 Tech stack Used:  HTML, CSS, JavaScript, React, Firebase.
+
 Hosted Url Link :- https://graceful-yeot-9db0e4.netlify.app
